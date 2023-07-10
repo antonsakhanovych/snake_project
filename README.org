@@ -1,0 +1,20 @@
+* Snake Game
+This is snake game written in java.
+
+* Concepts
+This game is build using MVC(Model, view, controller) architecture.
+Used observer design pattern where the graphics listen to the logical thread events.
+
+* Compile
+If you are using IDEA IDE, you can run Main.java.
+
+otherwise compile using javac:
+#+begin_src bash
+cd project_folder/src
+
+javac Main.java
+
+java Main
+#+end_src
+
+after running those commands you should see the window with the snake game!
